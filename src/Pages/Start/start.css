@@ -1,0 +1,27 @@
+.start{
+    background-color: black;
+    border-radius: 9999px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.start :hover{
+    border-radius: 9999px;
+    animation: flip 3s linear infinite;
+    animation-direction: normal;
+}
+
+@keyframes flip{
+    0%{background-image: url('../../Assets/relax1.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;}
+    50%{background-image: url('../../Assets/relax2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;}
+    100%{background-image: url('../../Assets/relax3.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;}
+}
