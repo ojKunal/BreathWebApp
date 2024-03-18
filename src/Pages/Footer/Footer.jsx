@@ -42,7 +42,7 @@ const Navbar = () => {
     <hr className='md:mx-48' />
     <div className='flex flex-col w-screen md:w-auto lg:flex-row md:flex-row justify-between lg:mx-48 md:mx-32 items-center text-center'>
         <div className='flex'>
-            <h4 className='text-gray-400 m-6 text-xs'>©2023, inBreadth</h4>
+            <h4 className='text-gray-400 m-6 text-xs'>©2024, Breadth</h4>
             <h4 className='text-gray-400 m-6 text-xs'>send feedback</h4>
         </div>
         <div className='flex'>
